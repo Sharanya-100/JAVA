@@ -24,7 +24,7 @@ public class prog3 {
                System.out.println("Please provide valid age and gender.!");
         }
 
-        sc.close();
+    
 
     }
 }
