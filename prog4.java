@@ -10,7 +10,8 @@ public class prog4 {
             System.out.println("The uppercase of '" + ch + "' is: " + upperCaseChar);
         } else {
             
-            System.out.println("'" + ch + "' is not a lowercase letter.");
+             char lowercasechar=Character.toLowerCase(ch);
+             System.err.println("The lowercase of'"+ch+"' is: "+lowercasechar);
         }
     }
 }
